@@ -3,24 +3,33 @@ public class RollGenerator {
     int EpicLootCounter = 0;
     int LegendaryLootCounter = 0;
 
-    LootRepository repository = new LootRepository();
+    public RollGenerator(LootRepository basicRepository, LootRepository epicRepository,
+                         LootRepository legendaryRepository) {
+        this.basicRepository = basicRepository;
+        this.epicRepository = epicRepository;
+        this.legendaryRepository = legendaryRepository;
+    }
 
-    public String roll(){
+    LootRepository basicRepository;
+    LootRepository epicRepository;
+    LootRepository legendaryRepository;
+
+    public Loot roll(){
         int random = (int) (Math.random()*100);
         if (random < RollVariables.getEpicProbability()){
             if (random < RollVariables.getLegendaryProbability()){
-                LegendaryLoot loot = repository.getRandomLegendaryLoot();
+                Loot loot = legendaryRepository.getRandomLoot();
                 LegendaryLootCounter++;
-                return loot.getLootName();
+                return loot;
             } else {
-                EpicLoot loot = repository.getRandomEpicLoot();
+                Loot loot = epicRepository.getRandomLoot();
                 EpicLootCounter++;
-                return loot.getLootName();
+                return loot;
             }
         } else {
-            BasicLoot loot = repository.getRandomBasicLoot();
+            Loot loot = basicRepository.getRandomLoot();
             BasicLootCounter++;
-            return loot.getLootName();
+            return loot;
         }
     }
 }
