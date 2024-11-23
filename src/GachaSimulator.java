@@ -6,4 +6,8 @@ public class GachaSimulator {
         rollCounter++;
         return roller.roll();
     }
+    public int[] getStats(){
+        int[] stats = {roller.BasicLootCounter,roller.EpicLootCounter,roller.LegendaryLootCounter};
+        return stats;
+    }
 }

@@ -3,7 +3,7 @@ public class RollVariables {
     private static double epicProbability = 0.2;
 
     public static int getLegendaryProbability() {
-        return (int) legendaryProbability*100;
+        return (int) (legendaryProbability*100);
     }
 
     public static int getEpicProbability() {
