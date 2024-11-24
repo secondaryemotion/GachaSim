@@ -1,38 +1,44 @@
 public class RollStatsTracker {
     private int rollCounter = 0;
-    private int BasicLootCounter = 0;
-    private int EpicLootCounter = 0;
-    private int LegendaryLootCounter = 0;
+    private int basicLootCounter = 0;
+    private int epicLootCounter = 0;
+    private int legendaryLootCounter = 0;
 
     public int getRollCounter() {
         return rollCounter;
     }
 
     public void addToRollCounter() {
-        this.rollCounter++;
+        rollCounter++;
     }
 
     public int getBasicLootCounter() {
-        return BasicLootCounter;
+        return basicLootCounter;
     }
 
     public void addToBasicLootCounter() {
-        this.BasicLootCounter++;
+        basicLootCounter++;
     }
 
     public int getEpicLootCounter() {
-        return EpicLootCounter;
+        return epicLootCounter;
     }
 
     public void addToEpicLootCounter() {
-        this.EpicLootCounter++;
+        epicLootCounter++;
     }
 
     public int getLegendaryLootCounter() {
-        return LegendaryLootCounter;
+        return legendaryLootCounter;
     }
 
     public void addToLegendaryLootCounter() {
-        this.LegendaryLootCounter++;
+        legendaryLootCounter++;
+    }
+    @Override
+    public String toString(){
+        String stats = "%d pulls made \n %d basic loots \n %d epic loots \n %d legendary loots";
+        return String.format(stats,getRollCounter(),getBasicLootCounter(),
+                getEpicLootCounter(),getLegendaryLootCounter());
     }
 }

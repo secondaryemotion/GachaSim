@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bdc878b9-1d96-4bfd-9531-c0c61652633f" name="Changes" comment="LootRepository added">
-      <change afterPath="$PROJECT_DIR$/src/RollStatsTracker.java" afterDir="false" />
+    <list default="true" id="bdc878b9-1d96-4bfd-9531-c0c61652633f" name="Changes" comment="RollStatsTracker added">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/GachaSimulator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GachaSimulator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/RollGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RollGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/RollVariables.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RollSettings.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RollStatsTracker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RollStatsTracker.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,12 +100,21 @@
       <option name="project" value="LOCAL" />
       <updated>1732398708844</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="RollStatsTracker added">
+      <option name="closed" value="true" />
+      <created>1732459884792</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1732459884792</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
     <MESSAGE value="LootRepository added" />
-    <option name="LAST_COMMIT_MESSAGE" value="LootRepository added" />
+    <MESSAGE value="RollStatsTracker added" />
+    <option name="LAST_COMMIT_MESSAGE" value="RollStatsTracker added" />
   </component>
 </project>
