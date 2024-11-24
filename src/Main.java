@@ -6,7 +6,7 @@ public class Main {
             gacha.pull();
         }
         int[] stats = gacha.getStats();
-        System.out.println(pulls+" pulls made");
+        System.out.println(stats[3]+" pulls made");
         System.out.println(stats[0]+" basic loots");
         System.out.println(stats[1]+" epic loots");
         System.out.println(stats[2]+" legendary loots");

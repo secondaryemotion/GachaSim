@@ -1,13 +1,13 @@
 public class GachaSimulator {
     RollGenerator roller = new RollGenerator(new BasicLootRepository(), new EpicLootRepository(),
             new LegendaryLootRepository());
-    int rollCounter = 0;
+    RollStatsTracker tracker = new RollStatsTracker();
 
     public Loot pull(){
-        rollCounter++;
-        return roller.roll();
+        return roller.roll(tracker);
     }
     public int[] getStats(){
-        return new int[]{roller.BasicLootCounter, roller.EpicLootCounter, roller.LegendaryLootCounter};
+        return new int[]{tracker.getBasicLootCounter(),tracker.getEpicLootCounter(),
+                tracker.getLegendaryLootCounter(), tracker.getRollCounter()};
     }
 }

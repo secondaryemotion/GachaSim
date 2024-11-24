@@ -1,7 +1,4 @@
 public class RollGenerator {
-    int BasicLootCounter = 0;
-    int EpicLootCounter = 0;
-    int LegendaryLootCounter = 0;
 
     public RollGenerator(LootRepository basicRepository, LootRepository epicRepository,
                          LootRepository legendaryRepository) {
@@ -14,21 +11,22 @@ public class RollGenerator {
     LootRepository epicRepository;
     LootRepository legendaryRepository;
 
-    public Loot roll(){
+    public Loot roll(RollStatsTracker tracker){
         int random = (int) (Math.random()*100);
-        if (random < RollVariables.getEpicProbability()){
-            if (random < RollVariables.getLegendaryProbability()){
+        tracker.addToRollCounter();
+        if (random < RollSettings.getEpicProbabilityPercent()){
+            if (random < RollSettings.getLegendaryProbabilityPercent()){
                 Loot loot = legendaryRepository.getRandomLoot();
-                LegendaryLootCounter++;
+                tracker.addToLegendaryLootCounter();
                 return loot;
             } else {
                 Loot loot = epicRepository.getRandomLoot();
-                EpicLootCounter++;
+                tracker.addToEpicLootCounter();
                 return loot;
             }
         } else {
             Loot loot = basicRepository.getRandomLoot();
-            BasicLootCounter++;
+            tracker.addToBasicLootCounter();
             return loot;
         }
     }
