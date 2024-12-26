@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bdc878b9-1d96-4bfd-9531-c0c61652633f" name="Changes" comment="RollStatsTracker added">
+      <change afterPath="$PROJECT_DIR$/src/NameGeneratorAPIRequester.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GachaSimulator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GachaSimulator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/RollStatsTracker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RollStatsTracker.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,8 +32,8 @@
 }</component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/secondaryemotion/GachaSim.git&quot;,
-    &quot;accountId&quot;: &quot;8ae39d59-7cf9-45c8-9e87-1f2dcee8f0fb&quot;
+    &quot;url&quot;: &quot;https://github.com/secondaryemotion/GachaSim&quot;,
+    &quot;accountId&quot;: &quot;e7b763dd-d261-4725-89c7-97d5b01a1f07&quot;
   }
 }</component>
   <component name="ProjectColorInfo">{
@@ -53,6 +51,7 @@
   &quot;keyToString&quot;: {
     &quot;Application.Main.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
