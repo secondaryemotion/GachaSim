@@ -1,17 +1,17 @@
+import java.io.IOException;
+
 public class BasicLootRepository implements LootRepository {
 
-    String[] firstNamesBasic = {"Basic","Boring","Dumb"};
-    String[] secondNamesBasic = {"Paperwork","Laundry"};
 
+    NameGeneratorAPIRequester requester;
 
-    public BasicLoot getRandomLoot(){
+    BasicLootRepository(NameGeneratorAPIRequester requester){
+        this.requester = requester;
+    }
 
-        int firstNameIndex = (int) (Math.random()* firstNamesBasic.length);
-        int secondNameIndex = (int) (Math.random()* secondNamesBasic.length);
+    public BasicLoot getRandomLoot() throws IOException {
 
-        String name = firstNamesBasic[firstNameIndex] + " " + secondNamesBasic[secondNameIndex];
-
-        return new BasicLoot(name);
+        return new BasicLoot(requester.getRandomName());
     }
 
 }

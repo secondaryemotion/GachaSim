@@ -1,3 +1,5 @@
+import java.io.IOException;
+
 public class RollGenerator {
 
     public RollGenerator(LootRepository basicRepository, LootRepository epicRepository,
@@ -11,7 +13,7 @@ public class RollGenerator {
     LootRepository epicRepository;
     LootRepository legendaryRepository;
 
-    public Loot roll(RollStatsTracker tracker){
+    public Loot roll(RollStatsTracker tracker) throws IOException {
         int random = (int) (Math.random()*100);
         tracker.addToRollCounter();
         if (random < RollSettings.getEpicProbabilityPercent()){

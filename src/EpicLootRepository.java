@@ -1,22 +1,17 @@
+import java.io.IOException;
+
 public class EpicLootRepository implements LootRepository {
 
+    NameGeneratorAPIRequester requester;
 
-
-    String[] firstNamesEpic = {"Epic","Pretty","Impressive"};
-    String[] secondNamesEpic = {"Album","Dog"};
-
-
-
-
-    public EpicLoot getRandomLoot(){
-        int firstNameIndex = (int) (Math.random()* firstNamesEpic.length);
-        int secondNameIndex = (int) (Math.random()* secondNamesEpic.length);
-
-        String name = firstNamesEpic[firstNameIndex] + " " + secondNamesEpic[secondNameIndex];
-
-        return new EpicLoot(name);
+    EpicLootRepository(NameGeneratorAPIRequester requester){
+        this.requester = requester;
     }
 
+    public EpicLoot getRandomLoot() throws IOException {
+
+        return new EpicLoot(requester.getRandomName());
+    }
 
     }
 

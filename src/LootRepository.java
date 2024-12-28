@@ -1,4 +1,6 @@
+import java.io.IOException;
+
 public interface LootRepository {
 
-    Loot getRandomLoot();
+    Loot getRandomLoot() throws IOException;
 }

@@ -1,3 +1,5 @@
+import java.io.IOException;
+
 public class GachaSimulator {
 
     public GachaSimulator(RollGenerator roller, RollStatsTracker tracker){
@@ -8,7 +10,7 @@ public class GachaSimulator {
     RollGenerator roller;
     RollStatsTracker tracker;
 
-    public Loot pull(){
+    public Loot pull() throws IOException {
         return roller.roll(tracker);
     }
 

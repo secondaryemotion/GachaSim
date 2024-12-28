@@ -5,8 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bdc878b9-1d96-4bfd-9531-c0c61652633f" name="Changes" comment="RollStatsTracker added">
-      <change afterPath="$PROJECT_DIR$/src/NameGeneratorAPIRequester.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GachaSim.iml" beforeDir="false" afterPath="$PROJECT_DIR$/GachaSim.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BasicLootRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BasicLootRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EpicLootRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EpicLootRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GachaSimulator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GachaSimulator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LegendaryLootRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LegendaryLootRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LootRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LootRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NameGeneratorAPIRequester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NameGeneratorAPIRequester.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RollGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RollGenerator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,8 +40,8 @@
 }</component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/secondaryemotion/GachaSim&quot;,
-    &quot;accountId&quot;: &quot;e7b763dd-d261-4725-89c7-97d5b01a1f07&quot;
+    &quot;url&quot;: &quot;https://github.com/secondaryemotion/GachaSim.git&quot;,
+    &quot;accountId&quot;: &quot;d8cbd0eb-d38f-4363-9e52-f54aec786e12&quot;
   }
 }</component>
   <component name="ProjectColorInfo">{
@@ -55,16 +63,32 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/user/Documents/json-20240303.jar&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/user/IdeaProjects/GachaSim/src/Main.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="" />
     </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-fdfe4dae3a2d-intellij.indexing.shared.core-IU-243.22562.218" />
+        <option value="bundled-js-predefined-d6986cc7102b-deb605915726-JavaScript-IU-243.22562.218" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -74,6 +98,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1732384604900</updated>
+      <workItem from="1735312451316" duration="6889000" />
+      <workItem from="1735411759395" duration="3182000" />
+      <workItem from="1735417698779" duration="293000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
@@ -109,6 +136,9 @@
     </task>
     <option name="localTasksCounter" value="5" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
