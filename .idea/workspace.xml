@@ -4,17 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bdc878b9-1d96-4bfd-9531-c0c61652633f" name="Changes" comment="RollStatsTracker added">
+    <list default="true" id="bdc878b9-1d96-4bfd-9531-c0c61652633f" name="Changes" comment="api requester added">
+      <change afterPath="$PROJECT_DIR$/src/RandomNameResult.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GachaSim.iml" beforeDir="false" afterPath="$PROJECT_DIR$/GachaSim.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/BasicLootRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BasicLootRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/EpicLootRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EpicLootRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GachaSimulator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GachaSimulator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LegendaryLootRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LegendaryLootRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/LootRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LootRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/NameGeneratorAPIRequester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NameGeneratorAPIRequester.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/RollGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RollGenerator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,7 +96,8 @@
       <updated>1732384604900</updated>
       <workItem from="1735312451316" duration="6889000" />
       <workItem from="1735411759395" duration="3182000" />
-      <workItem from="1735417698779" duration="293000" />
+      <workItem from="1735417698779" duration="1919000" />
+      <workItem from="1735548518090" duration="2469000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
@@ -134,7 +131,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732459884792</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="api requester added">
+      <option name="closed" value="true" />
+      <created>1735418423844</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1735418423844</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -144,6 +149,7 @@
     <MESSAGE value="first commit" />
     <MESSAGE value="LootRepository added" />
     <MESSAGE value="RollStatsTracker added" />
-    <option name="LAST_COMMIT_MESSAGE" value="RollStatsTracker added" />
+    <MESSAGE value="api requester added" />
+    <option name="LAST_COMMIT_MESSAGE" value="api requester added" />
   </component>
 </project>
