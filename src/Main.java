@@ -1,10 +1,9 @@
 import java.io.IOException;
-import java.net.MalformedURLException;
 import java.net.URI;
 import java.net.URISyntaxException;
 
 public class Main {
-    public static void main(String[] args) throws URISyntaxException, IOException {
+    public static void main(String[] args) throws URISyntaxException, IOException, ClassNotFoundException {
 
         URI uri = new URI("http://localhost:8080/random");
         NameGeneratorAPIRequester requester = new NameGeneratorAPIRequester(uri);
@@ -20,6 +19,7 @@ public class Main {
             System.out.println(loot.getLootName());
         }
         System.out.println(tracker);
+        tracker.serialize();
 
     }
 }
