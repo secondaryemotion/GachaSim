@@ -7,17 +7,6 @@ public class RollStatsTracker implements Serializable {
     private int epicLootCounter = 0;
     private int legendaryLootCounter = 0;
 
-    public RollStatsTracker() throws IOException, ClassNotFoundException {
-        RollStatsTracker deserializedTracker = RollStatsSerializer.deserialize();
-        this.rollCounter = deserializedTracker.rollCounter;
-        this.basicLootCounter = deserializedTracker.basicLootCounter;
-        this.epicLootCounter = deserializedTracker.epicLootCounter;
-        this.legendaryLootCounter = deserializedTracker.legendaryLootCounter;
-    }
-
-    public RollStatsTracker(int rollCounter){
-        this.rollCounter = rollCounter;
-    }
 
     public int getRollCounter() {
         return rollCounter;
@@ -56,8 +45,6 @@ public class RollStatsTracker implements Serializable {
         return String.format(stats,getRollCounter(),getBasicLootCounter(),
                 getEpicLootCounter(),getLegendaryLootCounter());
     }
-    public void serialize() throws IOException {
-        RollStatsSerializer.serialize(this);
-    }
+
 
     }

@@ -2,10 +2,8 @@ import java.io.*;
 
 public class RollStatsSerializer {
 
-    static String rollStatsFilePath = "src/resources/roll_stats.txt";
-
-    public static void serialize(RollStatsTracker tracker) throws IOException {
-        File file = new File(rollStatsFilePath);
+    public static void serialize(RollStatsTracker tracker, String path) throws IOException {
+        File file = new File(path);
         file.mkdir();
         FileOutputStream fileOutputStream = new FileOutputStream(file);
         ObjectOutputStream objectOutputStream = new ObjectOutputStream(fileOutputStream);
@@ -14,13 +12,13 @@ public class RollStatsSerializer {
         objectOutputStream.close();
     }
 
-    public static RollStatsTracker deserialize() throws IOException, ClassNotFoundException {
+    public static RollStatsTracker deserialize(String path) throws IOException, ClassNotFoundException {
 
-        File file = new File(rollStatsFilePath);
+        File file = new File(path);
         file.mkdir();
         FileInputStream fileInputStream = new FileInputStream(file);
         if (file.length() == 0) {
-            return new RollStatsTracker(0);
+            return new RollStatsTracker();
         } else {
             ObjectInputStream objectInputStream = new ObjectInputStream(fileInputStream);
             RollStatsTracker tracker = (RollStatsTracker) objectInputStream.readObject();

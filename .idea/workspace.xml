@@ -10,12 +10,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bdc878b9-1d96-4bfd-9531-c0c61652633f" name="Changes" comment="mergeURL method and RandomNameResult class added">
-      <change afterPath="$PROJECT_DIR$/src/RollStatsSerializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/roll_stats.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BasicLootRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BasicLootRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LootRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LootRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RollStatsSerializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RollStatsSerializer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/RollStatsTracker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RollStatsTracker.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -56,28 +53,28 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Main.executor": "Debug",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/user/Documents/json-20240303.jar",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "C:/Users/user/IdeaProjects/GachaSim/src/Main.java",
-    "project.structure.last.edited": "Artifacts",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Debug&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/user/Documents/json-20240303.jar&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/user/IdeaProjects/GachaSim/src/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\user\IdeaProjects\GachaSim\src" />
@@ -117,6 +114,9 @@
       <workItem from="1737141548871" duration="276000" />
       <workItem from="1737142400529" duration="22000" />
       <workItem from="1737142786157" duration="648000" />
+      <workItem from="1737143610341" duration="146000" />
+      <workItem from="1737146183178" duration="333000" />
+      <workItem from="1737146558279" duration="791000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
@@ -166,7 +166,15 @@
       <option name="project" value="LOCAL" />
       <updated>1735551045915</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="mergeURL method and RandomNameResult class added">
+      <option name="closed" value="true" />
+      <created>1737143676608</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1737143676608</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

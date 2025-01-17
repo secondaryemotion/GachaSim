@@ -19,7 +19,6 @@ public class Main {
             System.out.println(loot.getLootName());
         }
         System.out.println(tracker);
-        tracker.serialize();
 
     }
 }
