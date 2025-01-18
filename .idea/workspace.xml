@@ -9,7 +9,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bdc878b9-1d96-4bfd-9531-c0c61652633f" name="Changes" comment="serializer fixed" />
+    <list default="true" id="bdc878b9-1d96-4bfd-9531-c0c61652633f" name="Changes" comment="tracker usages renamed" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -112,6 +112,7 @@
       <workItem from="1737143610341" duration="146000" />
       <workItem from="1737146183178" duration="333000" />
       <workItem from="1737146558279" duration="994000" />
+      <workItem from="1737201274042" duration="321000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
@@ -177,7 +178,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737147679382</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="tracker usages renamed">
+      <option name="closed" value="true" />
+      <created>1737201539337</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1737201539337</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -190,6 +199,7 @@
     <MESSAGE value="api requester added" />
     <MESSAGE value="mergeURL method and RandomNameResult class added" />
     <MESSAGE value="serializer fixed" />
-    <option name="LAST_COMMIT_MESSAGE" value="serializer fixed" />
+    <MESSAGE value="tracker usages renamed" />
+    <option name="LAST_COMMIT_MESSAGE" value="tracker usages renamed" />
   </component>
 </project>
