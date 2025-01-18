@@ -2,28 +2,28 @@ import java.io.*;
 
 public class RollStatsSerializer {
 
-    public static void serialize(RollStatsTracker tracker, String path) throws IOException {
+    public static void serialize(RollStats stats, String path) throws IOException {
         File file = new File(path);
         file.mkdir();
         FileOutputStream fileOutputStream = new FileOutputStream(file);
         ObjectOutputStream objectOutputStream = new ObjectOutputStream(fileOutputStream);
-        objectOutputStream.writeObject(tracker);
+        objectOutputStream.writeObject(stats);
         objectOutputStream.flush();
         objectOutputStream.close();
     }
 
-    public static RollStatsTracker deserialize(String path) throws IOException, ClassNotFoundException {
+    public static RollStats deserialize(String path) throws IOException, ClassNotFoundException {
 
         File file = new File(path);
         file.mkdir();
         FileInputStream fileInputStream = new FileInputStream(file);
         if (file.length() == 0) {
-            return new RollStatsTracker();
+            return new RollStats();
         } else {
             ObjectInputStream objectInputStream = new ObjectInputStream(fileInputStream);
-            RollStatsTracker tracker = (RollStatsTracker) objectInputStream.readObject();
+            RollStats stats = (RollStats) objectInputStream.readObject();
             objectInputStream.close();
-            return tracker;
+            return stats;
         }
     }
 

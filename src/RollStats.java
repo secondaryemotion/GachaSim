@@ -1,7 +1,6 @@
-import java.io.IOException;
 import java.io.Serializable;
 
-public class RollStatsTracker implements Serializable {
+public class RollStats implements Serializable {
     private int rollCounter = 0;
     private int basicLootCounter = 0;
     private int epicLootCounter = 0;

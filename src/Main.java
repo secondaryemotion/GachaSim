@@ -10,15 +10,15 @@ public class Main {
 
         RollGenerator roller = new RollGenerator(new BasicLootRepository(requester), new EpicLootRepository(requester),
             new LegendaryLootRepository(requester));
-        RollStatsTracker tracker = new RollStatsTracker();
+        RollStats stats = new RollStats();
 
-        GachaSimulator gacha = new GachaSimulator(roller, tracker);
+        GachaSimulator gacha = new GachaSimulator(roller, stats);
         int pulls = 10;
         for (int i = 0; i < pulls; i++){
             Loot loot = gacha.pull();
             System.out.println(loot.getLootName());
         }
-        System.out.println(tracker);
+        System.out.println(stats);
 
     }
 }

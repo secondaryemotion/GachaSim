@@ -13,22 +13,22 @@ public class RollGenerator {
     LootRepository epicRepository;
     LootRepository legendaryRepository;
 
-    public Loot roll(RollStatsTracker tracker) throws IOException {
+    public Loot roll(RollStats stats) throws IOException {
         int random = (int) (Math.random()*100);
-        tracker.addToRollCounter();
+        stats.addToRollCounter();
         if (random < RollSettings.getEpicProbabilityPercent()){
             if (random < RollSettings.getLegendaryProbabilityPercent()){
                 Loot loot = legendaryRepository.getRandomLoot();
-                tracker.addToLegendaryLootCounter();
+                stats.addToLegendaryLootCounter();
                 return loot;
             } else {
                 Loot loot = epicRepository.getRandomLoot();
-                tracker.addToEpicLootCounter();
+                stats.addToEpicLootCounter();
                 return loot;
             }
         } else {
             Loot loot = basicRepository.getRandomLoot();
-            tracker.addToBasicLootCounter();
+            stats.addToBasicLootCounter();
             return loot;
         }
     }
