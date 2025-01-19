@@ -1,3 +1,9 @@
+package main.repositories;
+
+import main.interfaces.LootRepository;
+import main.models.*;
+import main.namegenerator.NameGeneratorAPIRequester;
+
 import java.io.IOException;
 
 public class BasicLootRepository implements LootRepository {
@@ -5,7 +11,7 @@ public class BasicLootRepository implements LootRepository {
 
     NameGeneratorAPIRequester requester;
 
-    BasicLootRepository(NameGeneratorAPIRequester requester){
+    public BasicLootRepository(NameGeneratorAPIRequester requester){
         this.requester = requester;
     }
 

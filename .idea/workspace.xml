@@ -9,7 +9,38 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bdc878b9-1d96-4bfd-9531-c0c61652633f" name="Changes" comment="tracker usages renamed" />
+    <list default="true" id="bdc878b9-1d96-4bfd-9531-c0c61652633f" name="Changes" comment="tracker usages renamed">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/GachaSim_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/unnamed.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/fasterxml_jackson_core_databind.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/json_20240303.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/enums/LootRarity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/LootRepositoryStub.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/RollGeneratorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/RollStatsSerializerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/roll_stats_test.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GachaSim.iml" beforeDir="false" afterPath="$PROJECT_DIR$/GachaSim.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BasicLoot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/models/BasicLoot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BasicLootRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/repositories/BasicLootRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EpicLoot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/models/EpicLoot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EpicLootRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/repositories/EpicLootRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GachaSimulator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/namegenerator/GachaSimulator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LegendaryLoot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/models/LegendaryLoot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LegendaryLootRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/repositories/LegendaryLootRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Loot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/interfaces/Loot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LootRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/interfaces/LootRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NameGeneratorAPIRequester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/namegenerator/NameGeneratorAPIRequester.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RandomNameResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/models/RandomNameResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RollGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/roll/RollGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RollSettings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/roll/RollSettings.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RollStats.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/roll/RollStats.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RollStatsSerializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/roll/RollStatsSerializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/roll_stats.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/roll_stats.txt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,6 +50,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="JUnit5 Test Class" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -48,35 +81,108 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Main.executor&quot;: &quot;Debug&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/user/Documents/json-20240303.jar&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/user/IdeaProjects/GachaSim/src/Main.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "Downloaded.Files.Path.Enabled": "false",
+    "JUnit.RollGeneratorTest.roll_basicRoll_epic.executor": "Run",
+    "JUnit.RollGeneratorTest.roll_legendaryRoll_legendary.executor": "Run",
+    "JUnit.RollStatsSerializerTest.serialize_deserialize.executor": "Run",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "create.test.in.the.same.root": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/user/Documents/json-20240303.jar",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "C:/Users/user/IdeaProjects/GachaSim/src/Main.java",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\user\IdeaProjects\GachaSim\src" />
     </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="main.namegenerator" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="" />
     </key>
+  </component>
+  <component name="RunManager" selected="JUnit.RollStatsSerializerTest.serialize_deserialize">
+    <configuration name="RollGeneratorTest.roll_basicRoll_epic" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="GachaSim" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.RollGeneratorTest" />
+      <option name="METHOD_NAME" value="roll_basicRoll_epic" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RollGeneratorTest.roll_legendaryRoll_legendary" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="GachaSim" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.RollGeneratorTest" />
+      <option name="METHOD_NAME" value="roll_legendaryRoll_legendary" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RollStatsSerializerTest.serialize_deserialize" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="GachaSim" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.RollStatsSerializerTest" />
+      <option name="METHOD_NAME" value="serialize_deserialize" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.RollStatsSerializerTest.serialize_deserialize" />
+        <item itemvalue="JUnit.RollGeneratorTest.roll_basicRoll_epic" />
+        <item itemvalue="JUnit.RollGeneratorTest.roll_legendaryRoll_legendary" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -112,7 +218,10 @@
       <workItem from="1737143610341" duration="146000" />
       <workItem from="1737146183178" duration="333000" />
       <workItem from="1737146558279" duration="994000" />
-      <workItem from="1737201274042" duration="321000" />
+      <workItem from="1737201274042" duration="454000" />
+      <workItem from="1737215342554" duration="123000" />
+      <workItem from="1737215630739" duration="854000" />
+      <workItem from="1737293437184" duration="9311000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
@@ -186,7 +295,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737201539337</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="tracker usages renamed">
+      <option name="closed" value="true" />
+      <created>1737201630882</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1737201630882</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

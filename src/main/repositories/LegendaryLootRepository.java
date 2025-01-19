@@ -1,10 +1,16 @@
+package main.repositories;
+
+import main.interfaces.*;
+import main.models.*;
+import main.namegenerator.*;
+
 import java.io.IOException;
 
 public class LegendaryLootRepository implements LootRepository {
 
     NameGeneratorAPIRequester requester;
 
-    LegendaryLootRepository(NameGeneratorAPIRequester requester){
+    public LegendaryLootRepository(NameGeneratorAPIRequester requester){
         this.requester = requester;
     }
 

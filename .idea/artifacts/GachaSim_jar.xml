@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="GachaSim:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/GachaSim_jar</output-path>
+    <root id="archive" name="GachaSim.jar">
+      <element id="module-output" name="GachaSim" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../GachaNamesGenerator/out/artifacts/GachaNamesGenerator_jar/GachaNamesGenerator.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Documents/json-20240303.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

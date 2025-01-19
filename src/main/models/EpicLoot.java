@@ -1,3 +1,8 @@
+package main.models;
+
+import main.enums.LootRarity;
+import main.interfaces.Loot;
+
 public class EpicLoot implements Loot {
 
     String name;
@@ -8,5 +13,8 @@ public class EpicLoot implements Loot {
 
     public String getLootName(){
         return name;
+    }
+    public LootRarity getRarity(){
+        return LootRarity.epic;
     }
 }

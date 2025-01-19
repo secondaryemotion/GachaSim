@@ -1,3 +1,7 @@
+package main.namegenerator;
+
+import main.interfaces.Loot;
+import main.roll.*;
 import java.io.IOException;
 
 public class GachaSimulator {
@@ -11,7 +15,7 @@ public class GachaSimulator {
     RollStats stats;
 
     public Loot pull() throws IOException {
-        return roller.roll(stats);
+        int random = (int) Math.round(Math.random()*100);
+        return roller.roll(stats, random);
     }
-
 }

@@ -1,3 +1,5 @@
+package main.models;
+
 import org.json.JSONObject;
 
 public class RandomNameResult {

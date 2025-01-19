@@ -1,3 +1,7 @@
+package main.roll;
+
+import main.interfaces.*;
+
 import java.io.IOException;
 
 public class RollGenerator {
@@ -13,11 +17,10 @@ public class RollGenerator {
     LootRepository epicRepository;
     LootRepository legendaryRepository;
 
-    public Loot roll(RollStats stats) throws IOException {
-        int random = (int) (Math.random()*100);
+    public Loot roll(RollStats stats, int random) throws IOException {
         stats.addToRollCounter();
-        if (random < RollSettings.getEpicProbabilityPercent()){
-            if (random < RollSettings.getLegendaryProbabilityPercent()){
+        if (random <= RollSettings.getEpicProbabilityPercent()){
+            if (random <= RollSettings.getLegendaryProbabilityPercent()){
                 Loot loot = legendaryRepository.getRandomLoot();
                 stats.addToLegendaryLootCounter();
                 return loot;
@@ -32,4 +35,7 @@ public class RollGenerator {
             return loot;
         }
     }
+
+
+
 }

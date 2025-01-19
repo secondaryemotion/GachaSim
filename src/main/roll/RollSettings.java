@@ -1,3 +1,5 @@
+package main.roll;
+
 public class RollSettings {
     private static int legendaryProbabilityPercent = 5;
     private static int epicProbabilityPercent = 20;

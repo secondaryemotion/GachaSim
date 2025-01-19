@@ -1,3 +1,5 @@
+package main.roll;
+
 import java.io.Serializable;
 
 public class RollStats implements Serializable {
@@ -38,6 +40,7 @@ public class RollStats implements Serializable {
     public void addToLegendaryLootCounter() {
         legendaryLootCounter++;
     }
+
     @Override
     public String toString(){
         String stats = "%d pulls made \n %d basic loots \n %d epic loots \n %d legendary loots";
@@ -45,5 +48,19 @@ public class RollStats implements Serializable {
                 getEpicLootCounter(),getLegendaryLootCounter());
     }
 
+    @Override
+    public boolean equals(Object o) {
+        if (o == this) {
+            return true;
+        }
+        if (!(o instanceof RollStats)) {
+            return false;
+        }
+        RollStats rs = (RollStats) o;
+        return rs.basicLootCounter == this.basicLootCounter &&
+                rs.epicLootCounter == this.epicLootCounter &&
+                rs.legendaryLootCounter == this.legendaryLootCounter &&
+                rs.rollCounter == this.rollCounter;
+    }
 
     }

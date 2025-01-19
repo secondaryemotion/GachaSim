@@ -1,0 +1,1 @@
+{"rollCounter":20,"basicLootCounter":17,"epicLootCounter":2,"legendaryLootCounter":1}
